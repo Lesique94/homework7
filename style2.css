@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.cards {
+    margin: 50px 0;
+    padding: 50px;
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.cards>li {
+    padding: 0 16px 32px;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    width: calc(100% / 3);
+}
+.card {
+    background: wheat;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px black;
+    overflow: hidden;
+}
+
+.card_visual {
+    display: block;
+    margin: 0 0 25px;
+}
+
+.card_content {
+    padding: 0 25px 25px;
+    text-align: center;
+}
